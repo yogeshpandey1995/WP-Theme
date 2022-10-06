@@ -1,0 +1,73 @@
+/*
+Theme Name: Ecommerce
+Theme URI: #
+Author: Yogesh Pandey
+Author URI: #
+Description: Custom Theme
+Version: 1.0
+*/
+
+.price_shop_page {
+    display: flex !important;
+    flex-direction: row-reverse;
+    justify-content: center;
+    color: #111 !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+}
+
+.price_shop_page ins {
+    color: #ca1515;
+    font-size: 16px;
+    font-weight: 600 !important;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.price_shop_page del {
+    color: #766f6f !important;
+    line-height: 1.8;
+    font-size: 14px;
+    font-weight: 600 !important;
+}
+
+.price_single_product {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+}
+
+.price_single_product del {
+    font-size: 18px !important;
+    color: #766f6f;
+    font-weight: 600;
+    line-height: 1.8;
+}
+
+.price_single_product ins {
+    font-size: 30px;
+    font-weight: 600 !important;
+    color: #ca1515;
+    margin-right: 14px;
+    text-decoration: none;
+}
+
+.products.columns-3 {
+    text-align: center;
+}
+
+.woocommerce span.sale_price,
+.woocommerce span.single_sale_price {
+    top: 15px !important;
+    right: auto !important;
+    left: 15px !important;
+    min-height: 0 !important;
+    line-height: 1.4 !important;
+    background-color: #ca1515 !important;
+    border-radius: 0 !important;
+    font-weight: 500 !important;
+}
+
+.woocommerce span.single_sale_price {
+    top: 75px !important;
+}
